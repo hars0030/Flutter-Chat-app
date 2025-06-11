@@ -1,0 +1,19 @@
+name: devri_flutter_chat
+description: A simple Flutter chat client for Devri backend.
+
+environment:
+  sdk: ">=2.18.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  socket_io_client: ^2.0.3+1
+  http: ^0.13.6
+  intl: ^0.18.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
